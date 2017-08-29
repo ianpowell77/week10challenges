@@ -26,7 +26,7 @@ class Contact extends Component {
       		<div>
         		<p>You need to contact {this.props.firstName} {this.props.lastName} at {this.props.phoneNumber}</p>
         		<span className="pending" style={{backgroundColor:this.state.bgColor}}>{this.state.statusText}</span>
-        		<button onClick={this.handleClick}></button>
+        		<button onClick={this.handleClick}>&#9742;</button>
         	</div>
       	);
     }

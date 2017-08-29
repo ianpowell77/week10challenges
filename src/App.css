@@ -36,6 +36,7 @@ div {
 }
 
 button {
+	padding-right: 15.8px;
 	width: 15px;
 	height: 15px;
 	border: none;
@@ -45,8 +46,8 @@ button {
 	box-shadow: 0 0 3px black;
 }
 
-button:click {
-
+button:active {
+	background-color: lightgreen;
 }
 
 span {
